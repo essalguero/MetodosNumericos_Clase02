@@ -17,7 +17,7 @@ tolerancia = 10 ^ -5
 I = [-1.5:0.01:1.5];
 
 %subplot(3, 1, 1)
-figure
+%figure
 plot(I, f(I), I, ejex(I))
 
 %subplot(3, 1, 2)
