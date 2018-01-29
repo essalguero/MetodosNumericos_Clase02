@@ -1,4 +1,5 @@
 clc
+clear all
 
 %f = @(x) (x.^4) - 1 - ((x.^2)* exp(-x))
 
@@ -32,9 +33,11 @@ x01 = 1;
 subplot(4, 1, 2);
 plot(I, phiN(I), I, diag(I))
 axis equal
+
 subplot(4, 1, 3);
 plot(I, phi01(I), I, diag(I))
 axis equal
+
 subplot(4, 1, 4);
 plot(I, phi02(I), I, diag(I))
 axis equal
